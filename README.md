@@ -2,17 +2,17 @@
 
 ## tordock
 
-Containerized tor SOCKS5.
+Containerized Tor SOCKS5.
 
 
 #### How to
-To obtain your current IP:
+Check your current ip:
 ```
 curl icanhazip.com
 ```
 
 
-To start the container:
+Start the container:
 ```
 docker run -d -p 127.0.0.1:9150:9150 stefanoj3/tordock:latest
 ```
